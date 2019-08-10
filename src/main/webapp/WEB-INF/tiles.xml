@@ -109,18 +109,87 @@
 	
 	
 	
+	
 	<!-- Definicion de cliente -->
 	
 	
+	
 	<!-- Ventana inicio -->
+	<definition name="inicio2" extends="base-definition">
+		<put-attribute name="title"
+			value="inicio" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headercli.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/cliente/inicio2.jsp" />
+	</definition>
 	
 	<!-- Listado de productos -->
+	<definition name="productos2" extends="base-definition">
+		<put-attribute name="title"
+			value="Productos" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headercli.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/cliente/productos2.jsp" />
+	</definition>
 	
 	<!-- Muestra contacto -->
+	<definition name="contacto2" extends="base-definition">
+		<put-attribute name="title"
+			value="Contacto" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headercli.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/cliente/contacto2.jsp" />
+	</definition>
 	
 	<!-- Muestra Recargas-->
+	<definition name="recargas2" extends="base-definition">
+		<put-attribute name="title"
+			value="Recargas" />
+		<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headercli.jsp"/>	
+		<put-attribute name="body"
+			value="/WEB-INF/views/cliente/recargas2.jsp" />
+	</definition>
 	
 	<!-- Muestra Impresiones-->
+	<definition name="impresion2" extends="base-definition">
+		<put-attribute name="title"
+			value="Impresiones" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headercli.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/cliente/impresiones2.jsp" />
+	</definition>
+	
+	<!-- Muestra modificar contraseña-->
+	<definition name="modificarcontraseña" extends="base-definition">
+		<put-attribute name="title"
+			value="Modificar contraseña" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headercli.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/cliente/modcontra.jsp" />
+	</definition>
+	
+	
+	
+	
+	
+	
+	
+	<!-- Eliminar cuenta-->
+	<definition name="elicuenta" extends="base-definition">
+		<put-attribute name="title"
+			value="Eliminar cuenta" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headercli.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/cliente/eliminar.jsp" />
+	</definition>
+	
 	
 	
 	
