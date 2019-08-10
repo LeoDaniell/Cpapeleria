@@ -58,25 +58,54 @@
 	<!-- Definición de Usuarios -->
 	
 	<!-- Ventana inicio -->
-	<definition name="" extends="base-definition">
+	<definition name="inicio" extends="base-definition">
 		<put-attribute name="title"
-			value="" />
+			value="inicio" />
 			<put-attribute name="header"
-		    value="/WEB-INF/views/tiles/templates/"/>
+		    value="/WEB-INF/views/tiles/templates/header.jsp"/>
 		<put-attribute name="body"
-			value="/WEB-INF/views/administrador/" />
+			value="/WEB-INF/views/usuario/inicio.jsp" />
 	</definition>
 	
-	
-	<!-- Muestra productos -->
-	
+	<!-- Listado de productos -->
+	<definition name="productos" extends="base-definition">
+		<put-attribute name="title"
+			value="Productos" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/header.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/usuario/productos.jsp" />
+	</definition>
 	
 	<!-- Muestra contacto -->
+	<definition name="contacto" extends="base-definition">
+		<put-attribute name="title"
+			value="Contacto" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/header.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/usuario/contacto1.jsp" />
+	</definition>
 	
 	<!-- Muestra Recargas-->
+	<definition name="recargas" extends="base-definition">
+		<put-attribute name="title"
+			value="Recargas" />
+		<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/header.jsp"/>	
+		<put-attribute name="body"
+			value="/WEB-INF/views/usuario/recargas.jsp" />
+	</definition>
 	
 	<!-- Muestra Impresiones-->
-	
+	<definition name="impresion" extends="base-definition">
+		<put-attribute name="title"
+			value="Impresiones" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/header.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/usuario/impresion.jsp" />
+	</definition>
 	
 	
 	

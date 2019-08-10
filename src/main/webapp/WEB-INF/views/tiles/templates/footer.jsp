@@ -1,8 +1,8 @@
 <footer class="footer" style="margin-top:0px">
 
-      <div class="container">
+      <div class="container"  style="margin-bottom: 15px">
         <!--Inicio pie de pagina-->
-        <div class="row mipie">
+        <div class="row mipie" >
 
           <div class="col-md-12" style="margin-top: 15px">
 
