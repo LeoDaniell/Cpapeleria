@@ -198,12 +198,80 @@
 	
 	
 	<!-- Muestra Registrar-->
+	<definition name="registrar" extends="base-definition">
+		<put-attribute name="title"
+			value="Registar" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headeradmin.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/registrar.jsp" />
+	</definition>
 	
 	<!-- Muestra Agregar -->
+	<definition name="agregar" extends="base-definition">
+		<put-attribute name="title"
+			value="Agregar Producto" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headeradmin.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/agregar.jsp" />
+	</definition>
 	
 	<!-- Muestra modificar-->
+	<definition name="modificar" extends="base-definition">
+		<put-attribute name="title"
+			value="Modificar producto" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headeradmin.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/modificar.jsp" />
+	</definition>
 	
 	<!-- Muestra inventario-->
+	<definition name="inventario" extends="base-definition">
+		<put-attribute name="title"
+			value="Inventario" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headeradmin.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/inventario.jsp" />
+	</definition>
+	
+	
+	
+	
+	
+	
+	
+	<!-- cambiar contraseña administrador-->
+	
+	<definition name="modcontradmin" extends="base-definition">
+		<put-attribute name="title"
+			value="Cambiar contraseña de administrador"/>
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headeradmin.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/modcontradmin.jsp" />
+	</definition>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	<!-- eliminar administrador-->
+	
+	<definition name="eliminaradmin" extends="base-definition">
+		<put-attribute name="title"
+			value="Eliminar cuenta de administrador" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/headeradmin.jsp"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/eliminaradmin.jsp" />
+	</definition>
 	
 	
 
