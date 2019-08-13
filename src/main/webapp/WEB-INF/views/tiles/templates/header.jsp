@@ -9,7 +9,7 @@
         <div class="col-md-12 " style="margin-bottom: 0px" style="margin-top: 5px;">
 
 
-          <p class="boton">
+          
             <nav class="navbar navbar-expand-lg navbar-light">
               <a class="navbar-brand" href="inicio"><img src="<c:url value="/resources/imagen/Logo aprovado.png" />" width="250px"
                   height="250px"  > </a>
@@ -52,7 +52,7 @@
                 </button>
                   -->
 
-                <form class="form-inline my-2 my-lg-0">
+                
                   <!--Creacion de inicio de Seción-->
                   <button type="button" data-toggle="modal" data-target="#registrarModal" style="margin-left: 15px">
                     <img src="<c:url value="/resources/imagen/registrar.png" />" width="50px" height="50px"> 
@@ -63,48 +63,48 @@
 
                   <!-- Modal -->
                   <div class="modal fade" id="registrarModal" aria-labelledby="registrarModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                    <div class="modal-dialog" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
                           <h5 class="modal-title" id="registrarModalLabel">Registrarse</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close" 
+                          OnClick="procesaregistrar">
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
                         <div class="modal-body">
                           
-
+                     <form id="formRegistrar">
                           
                             <div class="form-group">
                             <label for="">Nombre: &nbsp; </label>
                             
-                            <input type="email" class="form-control" id="" placeholder="Nombre del usuario">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre del usuario">
                           </div>
                           <br>
                           <div class="form-group">
                             <label for="">Correo Electronico: &nbsp; </label>
                             
-                            <input type="email" class="form-control" id="" placeholder="email@example.com">
+                            <input type="email" class="form-control" id="correo" placeholder="email@example.com">
+                          </div>
+                          <br>
+                          <div class="form-group">
+                            <label for="">Usuario: &nbsp; </label>
+                          
+                            <input type="text" class="form-control" id="username" placeholder="Usuario">
                           </div>
                           <br>
                           <div class="form-group">
                             <label for="">Contraseña: &nbsp; </label>
                           
-                            <input type="password" class="form-control" id="" placeholder="Password">
+                            <input type="password" class="form-control" id="contrasena" placeholder="Contraseña">
                           </div>
                           <br>
-                          <div class="form-group">
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="">
-                              <label class="form-check-label" for="">
-                                Recuerdame
-                              </label>
-                            </div>
-                          </div>
+                         
                           <br>
-                          <button type="submit" class="btn btn-primary">Registrarse</button>
+                          <button type="Enviar" class="btn btn-primary" id="registrarButton">Registrarse</button>
                         
-
+                      </form>
                          
 
                         </div>
@@ -115,7 +115,7 @@
                   </div>
 
 
-                </form>
+                
                
                 
                   <!--Creacion de inicio de Seción-->
@@ -172,7 +172,7 @@
 
 
 
-          </p>
+       
 
         </div>
 

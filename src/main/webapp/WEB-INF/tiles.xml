@@ -58,6 +58,16 @@
 	<!-- Definición de Usuarios -->
 	
 	<!-- Ventana inicio -->
+	<definition name="loginUs" extends="base-definition">
+		<put-attribute name="title"
+			value="inicio de sesión" />
+			<put-attribute name="header"
+		    value="/WEB-INF/views/tiles/templates/header.jsp"/>
+		<put-attribute name="body"
+			value="/resources/js/login.js" />
+	</definition>
+	
+	<!-- Ventana inicio -->
 	<definition name="inicio" extends="base-definition">
 		<put-attribute name="title"
 			value="inicio" />

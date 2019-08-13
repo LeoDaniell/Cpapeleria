@@ -7,7 +7,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 @Entity
+@Table(name="tipousuario")
 public class Tipousuario implements Serializable{
 
 	/**
@@ -27,7 +29,7 @@ public class Tipousuario implements Serializable{
 		this.nombre = nombre;
 	}
 	public Tipousuario() {
-		super();
+		
 		
 	}
 	public int getIdTipoUsuario() {
